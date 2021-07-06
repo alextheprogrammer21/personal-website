@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Toolbar from './components/Navigation/Toolbar';
 import SideBar from './components/SideBar/SideBar';
