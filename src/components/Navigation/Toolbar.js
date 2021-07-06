@@ -23,7 +23,7 @@ export default function Toolbar(props) {
       <nav className="header_navigation">
         <div className="side_nav_items">
           <ul>
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/personal-website">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/contact">Contact</Link></li>
@@ -33,9 +33,9 @@ export default function Toolbar(props) {
     </header>
 
     <Switch>
-          <Route exact path="/">
+          {/* <Route exact path="/">
             <Main />
-          </Route>
+          </Route> */}
           <Route exact path="/personal-website">
             <Main />
           </Route>
