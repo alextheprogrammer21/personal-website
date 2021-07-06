@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Main from '../Main/Main';
+import Main2 from '../Main/Main2';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
@@ -23,7 +24,7 @@ export default function Toolbar(props) {
       <nav className="header_navigation">
         <div className="side_nav_items">
           <ul>
-            <li><Link to="/personal-website">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/contact">Contact</Link></li>
@@ -33,9 +34,9 @@ export default function Toolbar(props) {
     </header>
 
     <Switch>
-          {/* <Route exact path="/">
-            <Main />
-          </Route> */}
+          <Route exact path="/">
+            <Main2 />
+          </Route>
           <Route exact path="/personal-website">
             <Main />
           </Route>
