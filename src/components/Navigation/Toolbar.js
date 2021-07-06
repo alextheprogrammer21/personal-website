@@ -36,6 +36,9 @@ export default function Toolbar(props) {
           <Route exact path="/">
             <Main />
           </Route>
+          <Route exact path="/personal-website">
+            <Main />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
