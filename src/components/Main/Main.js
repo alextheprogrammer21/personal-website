@@ -8,7 +8,7 @@ export default function Main(props) {
       <h1 className="greeting">Hello, my name is</h1>
       <div className="name"> 
       <h2 className="full_name">Alex       
-        <img className="stroke " src="personal-website/images/blue.png" alt=''></img>
+        <img className="stroke fade-in-main" src="images/blue.png" alt=''></img>
       
       </h2>
       </div>
